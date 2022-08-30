@@ -1,7 +1,16 @@
 import React from 'react'
+import HomeCourses from '../components/Web/HomeCourses/HomeCourses'
+import HowMyCoursesWork from '../components/Web/HowMyCoursesWork'
+import MainBanner from '../components/Web/MainBanner'
+
+
 
 export default function Home() {
   return (
-    <div><p>home</p></div>
-  )
+    <>
+      <MainBanner/>
+      <HomeCourses/>
+      <HowMyCoursesWork/>
+    </>
+  ) 
 }
